@@ -1,0 +1,19 @@
+[project]
+name = "nemotron-parse-stepfun-document-intelligence"
+version = "0.1.0"
+description = "Document intelligence workflow using Nemotron Parse and StepFun through NVIDIA hosted endpoints"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.0.0",
+    "jupyter>=1.0.0",
+    "pandas>=2.0.0",
+    "pillow>=10.0.0",
+    "pymupdf>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+]
+
+[tool.uv]
+package = false
+
